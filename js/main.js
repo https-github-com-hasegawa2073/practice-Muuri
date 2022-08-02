@@ -1,1 +1,3 @@
-const grid = new Muuri('.grid');
+document.addEventListener('DOMContentLoaded', function () {
+  const grid = new Muuri('.grid');
+});

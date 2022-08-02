@@ -19,6 +19,13 @@ body {
   z-index: 1;
   background: $cBase;
   color: #fff;
+  overflow: hidden;
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+  }
 }
 .item.muuri-item-dragging {
   z-index: 3;
