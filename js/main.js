@@ -1,3 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const grid = new Muuri('.grid');
+  const elem = document.querySelector('.grid');
+  const grid = new Muuri(elem, {
+    layoutOnResize: 10,
+    layoutDuration: 600,
+  });
 });
